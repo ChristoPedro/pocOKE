@@ -1,0 +1,11 @@
+C:\Users\pejunior\Code\dotNet\webapi\app\webapi.exe
+C:\Users\pejunior\Code\dotNet\webapi\app\appsettings.Development.json
+C:\Users\pejunior\Code\dotNet\webapi\app\appsettings.json
+C:\Users\pejunior\Code\dotNet\webapi\app\webapi.dll
+C:\Users\pejunior\Code\dotNet\webapi\app\webapi.deps.json
+C:\Users\pejunior\Code\dotNet\webapi\app\webapi.runtimeconfig.json
+C:\Users\pejunior\Code\dotNet\webapi\app\webapi.pdb
+C:\Users\pejunior\Code\dotNet\webapi\app\Microsoft.OpenApi.dll
+C:\Users\pejunior\Code\dotNet\webapi\app\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\pejunior\Code\dotNet\webapi\app\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\pejunior\Code\dotNet\webapi\app\Swashbuckle.AspNetCore.SwaggerUI.dll
