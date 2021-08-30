@@ -16,6 +16,8 @@ spec:
     name: https
   - port: 5000
     name: http-api
+  - port: 8080
+    name: http-webservice
 ---
 apiVersion: apps/v1
 kind: Deployment
