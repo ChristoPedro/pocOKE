@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: weatherforecast
-        image: pedrochristo/weatherforecast:1.0
+        image: gru.ocir.io/grzqbs3gzppc/pedrochristo/weatherforecast:latest
         resources:
           requests:
             memory: "64Mi"
@@ -28,6 +28,8 @@ spec:
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
+      imagePullSecrets:
+      - name: ocisecret
 
 ---      
 apiVersion: v1
@@ -106,10 +108,12 @@ spec:
     spec:
       containers:
       - name: runhtml
-        image: pedrochristo/javaservice
+        image: gru.ocir.io/grzqbs3gzppc/pedrochristo/javaservice:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
+      imagePullSecrets:
+      - name: ocisecret
 
 ---      
 apiVersion: v1

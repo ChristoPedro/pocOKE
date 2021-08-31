@@ -18,6 +18,8 @@ spec:
     name: http-api
   - port: 8080
     name: http-webservice
+  - port: 3000
+    name: http-service
 ---
 apiVersion: apps/v1
 kind: Deployment
